@@ -1,3 +1,5 @@
+//welcome to the currency converter code//
+
 public class CurrencyConverter {
     public static void main(String[] args) {
         java.util.Scanner scan = new java.util.Scanner(System.in);
@@ -9,7 +11,7 @@ public class CurrencyConverter {
         boolean finished = false;
         while (!finished) {
             System.out.println();
-            System.out.println("What would you like to do?");
+            System.out.println("What would be your preferred transaction?");
             System.out.println("   1 - Exchange pounds into euro");
             System.out.println("   2 - Exchange euro into pounds");
             System.out.println("   0 - Exit the program");
