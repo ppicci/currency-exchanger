@@ -1,4 +1,4 @@
-//welcome to the currency converter code//
+//welcome to the currency converter codes//
 
 public class CurrencyConverter {
     public static void main(String[] args) {
