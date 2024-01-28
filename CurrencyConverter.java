@@ -5,7 +5,7 @@ public class CurrencyConverter {
         double euroOverPoundRatio = scan.nextDouble();
         System.out.print("If I give you 1€, how many Sterling pounds will you give me? ");
         double poundOverEuroRatio = scan.nextDouble();
-        System.out.println("OK, enough is known");
+        System.out.println("OK, enough");
         boolean finished = false;
         while (!finished) {
             System.out.println();
