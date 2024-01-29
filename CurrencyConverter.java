@@ -1,4 +1,4 @@
-//welcome to the currency converter java script//
+//welcome to the currency converter script//
 
 public class CurrencyConverter {
     public static void main(String[] args) {
