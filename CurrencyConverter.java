@@ -1,3 +1,5 @@
+//welcome to the currency converter java script//
+
 public class CurrencyConverter {
     public static void main(String[] args) {
         java.util.Scanner scan = new java.util.Scanner(System.in);
@@ -5,11 +7,11 @@ public class CurrencyConverter {
         double euroOverPoundRatio = scan.nextDouble();
         System.out.print("If I give you 1€, how many Sterling pounds will you give me? ");
         double poundOverEuroRatio = scan.nextDouble();
-        System.out.println("OK, now I know enough.");
+        System.out.println("OK, done");
         boolean finished = false;
         while (!finished) {
             System.out.println();
-            System.out.println("What would you like to do?");
+            System.out.println("What would be your preferred transaction?");
             System.out.println("   1 - Exchange pounds into euro");
             System.out.println("   2 - Exchange euro into pounds");
             System.out.println("   0 - Exit the program");
